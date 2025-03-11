@@ -54,6 +54,7 @@ public class ModInit implements ModInitializer {
 		DecorationsRecipeTypes.register();
 		DecorationsRecipeSerializers.register();
 		DecorationsUtil.register();
+		DecorationDispenserBehavior.register();
 
 		UiResourceCreator.setup();
 		GuiTextures.register();
